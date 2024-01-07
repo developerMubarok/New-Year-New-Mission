@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.body{
+    max-width: 1320px;
+    margin: auto;
+}
+/* Header section  */
+.banner{
+    background: url(../resources/Banner\ Image.png);
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 50px;
+}
+.banner-inner{
+    color: #fff;
+    text-align: center;
+    padding: 177px 344px;
+}
+.banner-inner h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+}
+/* Header End */
+/* Main section Start */
+.container{
+    text-align: center;
+}
+.heading h1{
+    margin-top: 120px;
+    color: #F00;
+    font-size: 88px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.heading h5{
+    margin-top: 48px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.heading p{
+    margin-top: 10px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container img{
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+/* Main section End */
+/* 2nd Header section */
+.banner-sub{
+    background: url(../resources/Vectorrr.png);
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 120px;
+}
+.banner-sub-inner {
+    color: #fff;
+    text-align: center;
+    padding: 177px 344px;
+    /* display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    left: 200px; */
+}
+.banner-h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    left: 100px;
+}
+.banner-h4{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* 2nd Header section */
+/* 2nd Main section Start  */
+.sub-container{
+    margin-top: 120px;
+    text-align: center;
+    border-radius: 16px;
+    height: 482px;
+   flex-shrink: 0;
+   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+;
+}
+.sub-heading{
+    
+}
