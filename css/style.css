@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 .body{
     max-width: 1320px;
@@ -10,7 +11,8 @@
 }
 /* Header section  */
 .banner{
-    background: url(../resources/Banner\ Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    /* background: url(../resources/Banner\ Image.png); */
     border-radius: 16px;
     height: 600px;
     margin-top: 50px;
@@ -69,51 +71,110 @@
 /* Main section End */
 /* 2nd Header section */
 .banner-sub{
-    background: url(../resources/Vectorrr.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    /* background: url(../resources/Vectorrr.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px;
     height: 600px;
     margin-top: 120px;
 }
-.banner-sub-inner {
-    color: #fff;
-    text-align: center;
-    padding: 177px 344px;
-    /* display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    position: absolute;
-    left: 200px; */
+.banner-sub .banner-sub-inner{
+    /* padding: 80px 60px;
+    max-width: 60%; */
 }
-.banner-h1{
-    text-align: center;
+.banner-sub-inner h3{
     color: #FFF;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-style: normal;
+    font-size: 50px;
     font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-    left: 100px;
+    letter-spacing: 7px;
 }
-.banner-h4{
-    color: rgba(255, 255, 255, 0.80);
+.banner-sub-inner p{
+    padding: 25px 0;
+    color: #ffffffcc;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
+
+
 /* 2nd Header section */
 /* 2nd Main section Start  */
 .sub-container{
-    margin-top: 120px;
+    width: 100%;
+    padding: 80px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.233) 0%, rgba(255, 0, 0, 0.075) 100%);
+    border-radius: 8px;
     text-align: center;
+    margin-top: 100px;
     border-radius: 16px;
-    height: 482px;
-   flex-shrink: 0;
-   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-;
 }
-.sub-heading{
+.sub-container h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.sub-container span{
+    color: #F00;
+}
+.btn-pri{
+    margin-top: 30px;
+    color: #fff;
+        background-color: #F00;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 25px;
+        cursor: pointer;
     
+}
+/* New Best Offer Contant */
+.middle-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.divison-container{
+    flex: 1;
+}
+.middle-container .Ellipse{
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid #F00;
+}
+.middle-container h4{
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+}
+.middle-container h2{
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.middle-container h1{
+    color: #F00;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.middle-container p{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.middle-container .Happy{
+    margin-top: 15px;
 }
